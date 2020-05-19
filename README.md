@@ -31,6 +31,8 @@ pppd noauth nodetach defaultroute usepeerdns maxfail 1 user <your username> pass
 其中动态链接库需要根据地区更改.
 注意：显示连接成功但是无法连接外网，请配置路由表.
 
+(You may noticed some output message like 'not replacing default route to wlo1 [115.194.64.1]', and when you run 'route', youll find a route about 115.194.64.1, so you can add a route with net 115.194.64.1, work may be done.)
+
 ```connect_sx stop``` 后如果无法使用无线网,请配置路由表或重启网络服务
 
 **感谢**
